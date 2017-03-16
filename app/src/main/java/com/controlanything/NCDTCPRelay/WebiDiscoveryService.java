@@ -25,7 +25,6 @@ import android.os.RemoteException;
 public class WebiDiscoveryService extends IntentService{
 
 	private int result = Activity.RESULT_CANCELED;
-	String BS = "this is bullshit";
 	Bundle extras;
 	static Messenger messenger;
 	public static Message msg;
